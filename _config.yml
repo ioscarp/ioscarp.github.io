@@ -13,9 +13,9 @@
 
 text_color_theme: ocean #eg: default | dark | forest | ocean | chocolate | orange
 ## Base settings ##
-url: www.sindrilin.com
+url: www.objccf.com
 baseurl: /
-title: sindrilin的小巢
+title: 鲤鱼池
 description: 本站记录我在学习之旅的沿途风景
 
 nav_lists:
@@ -33,7 +33,7 @@ nav_lists:
 #   rss:  /feed.xml
 
 ## GitHub repository (if the site is hosted by GitHub) ##
-repository: sindrilin  #e.g. someone/someone.github.io
+repository: Carppond  #e.g. someone/someone.github.io
 # repository_tree:  #e.g. master
 
 ## Language & timezone ##
@@ -42,15 +42,15 @@ timezone: Asia/Shanghai #see https://en.wikipedia.org/wiki/List_of_tz_database_t
 
 ## Author & social ##
 author:
-  name: sindrilin
-  email: sindrilin@foxmail.com
+  name: Carppond
+  email: objccf@gmail.com
   # facebook:  #your Facebook username
   # twitter:  #your Twitter username
-  github:  sindrilin
+  github:  lixianshen
   # googleplus:  #your Google+ username
   # weibo:  #your Weibo username
   # douban:  #your Douban username
-  linkedin:  林同学
+  linkedin:  李成福
 
 ## TOC
 toc:
@@ -127,4 +127,3 @@ plugins:
 
 ## Server ##
 server_url: "0.0.0.0"
-
