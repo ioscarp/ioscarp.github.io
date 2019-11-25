@@ -63,12 +63,12 @@ disqus:
 ## Comment system (gitalk) ##
 # please refer to https://github.com/gitalk/gitalk for more info.
 gitalk:
-  clientID: d718b31caa9b95ffcd44
-  clientSecret: 16e80e5f6626d86e3273073d17448e7ed46914e2
+  clientID: e5524e9225cd97564d0e
+  clientSecret: f919dbc4f49a7ff3041c11bd3f153fdb6fa8da3c
   repository: gitalk-demo
-  owner:  sindrilin
+  owner:  carpond
   admin: #Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
-    - sindrilin
+    - lixianshen
 
 ## Google Analytics ##
 ga_tracking_id: UA-153175255-1
