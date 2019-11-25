@@ -71,13 +71,13 @@ gitalk:
     - sindrilin
 
 ## Google Analytics ##
-ga_tracking_id: UA-118054194-1
+ga_tracking_id: UA-153175255-1
 
 ## Reading quantity (LeanCloud) ##
 leancloud:
-  app_id:  HS2TBMdGjF8Fpd6WSlBlOgw1-gzGzoHsz
-  app_key:  SSPhP71AW5pnc4VbLe9nvRVs
-  app_class:  blog_comment
+  app_id:  BgD82WXm8qsBpoeoKJDcx69P-gzGzoHsz
+  app_key:  ozdGXP8Q7LFqgvCIxFMfnzju
+  app_class:  Counter
 
 mathjax: true
 mathjax_autoNumber: true
