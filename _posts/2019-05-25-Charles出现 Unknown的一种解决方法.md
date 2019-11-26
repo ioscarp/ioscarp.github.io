@@ -3,12 +3,13 @@ title: Charles出现Unknown的一种解决方法
 date: 2019-05-25 10:25
 tags: 
 - 开发笔记
+- iOS逆向
 ---
 
 
 
-文采不好，凑活着看吧
-文采不好，凑活着看吧
+文采不好，凑活着看吧!!
+文采不好，凑活着看吧!!
 
 最近在逆向分析一个 `App`，遇到了 `unknown` 的现象，按照常规的处理就是安装证书，然后信任证书，打开 `App`，调试。然后发现。还是 `unknown`，如下图：
 
@@ -26,7 +27,7 @@ tags:
 
 ![image-20190524103127643](http://blog.objccf.com/blog/2019-05-24-023128.png)
 
-这里猜测，项目里做了 `SSL  Pinning 处理。下面去分析代码，由于被分析项目网络请求使用的是 `AFNetworking，``AFNetworking` 中针对 `SSL` 绑定实现安全链接的是 `AFSecurityPolicy` 这个类负责的，是 `AFNetworking` 中网络通信安全策略模块。它提供三种 `SSL Pinning Mode` 基本上的处理如下：
+这里猜测，项目里做了 `SSL  Pinning` 处理。下面去分析代码，由于被分析项目网络请求使用的是 `AFNetworking`，`AFNetworking` 中针对 `SSL` 绑定实现安全链接的是 `AFSecurityPolicy` 这个类负责的，是 `AFNetworking` 中网络通信安全策略模块。它提供三种 `SSL Pinning Mode` 基本上的处理如下：
 
 ```
 /**
