@@ -516,17 +516,13 @@ objc_object::rootDealloc()
 
 ## 参考
 
-[debugging_with_xcode](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/debugging_with_xcode/chapters/debugging_tools.html)
-[__builtin_expect()](<https://gcc.gnu.org/onlinedocs/gcc/Other-Builtins.html>)
-[ARM.cpp](https://clang.llvm.org/doxygen/Basic_2Targets_2ARM_8cpp_source.html)
-
-[操作系统和编译器预定义宏](https://blog.virbox.com/?p=54)
-
-[Objc 对象的今生今世](https://halfrost.com/objc_life/)
-
-[apple working with Objects](<https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/EncapsulatingData/EncapsulatingData.html#//apple_ref/doc/uid/TP40011210-CH5-SW2>)
-
-[ARC下dealloc过程及.cxx_destruct的探究](https://blog.sunnyxx.com/2014/04/02/objc_dig_arc_dealloc/)
+- [debugging_with_xcode](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/debugging_with_xcode/chapters/debugging_tools.html)
+- [__builtin_expect()](<https://gcc.gnu.org/onlinedocs/gcc/Other-Builtins.html>)
+- [ARM.cpp](https://clang.llvm.org/doxygen/Basic_2Targets_2ARM_8cpp_source.html)
+- [操作系统和编译器预定义宏](https://blog.virbox.com/?p=54)
+- [Objc 对象的今生今世](https://halfrost.com/objc_life/)
+- [apple working with Objects](<https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/EncapsulatingData/EncapsulatingData.html#//apple_ref/doc/uid/TP40011210-CH5-SW2>)
+- [ARC下dealloc过程及.cxx_destruct的探究](https://blog.sunnyxx.com/2014/04/02/objc_dig_arc_dealloc/)
 
 
 
