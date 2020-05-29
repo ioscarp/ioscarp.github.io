@@ -1,13 +1,9 @@
 ---
-Title: 我好像不懂 - alloc、init、dealloc
+Title: 我好像不懂系列之 - alloc、init、dealloc
 date: 2020-05-28 23:00
 tags:
 - 基础知识
 ---
-
-
-
-[TOC]
 
 ##  一、alloc
 
