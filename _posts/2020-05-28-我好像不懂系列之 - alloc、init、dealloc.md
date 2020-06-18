@@ -509,8 +509,7 @@ objc_object::rootDealloc()
 
   ![deallloc](http://blog.objccf.com/blog/2020-05-28-154838.png)
 
-
-## 最后 & 纠正
+## 四、 最后 & 纠正
 
 **又不对的地方，欢迎指出，谢谢**
 
